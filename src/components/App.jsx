@@ -5,7 +5,7 @@ import contacts from "../contacts";
 function App() {
   return (
     <div>
-      <h1 className="heading">My Contacts</h1>
+      <h1 className="heading">EMAIL SIGNATURE DIRECTORY</h1>
       {contacts.map((con) => (
         <Card
           key={con.id}
