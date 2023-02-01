@@ -2,8 +2,8 @@ const contacts = [
   {
     id: 1,
     name: "Jane Doe",
-    designation: "Designation",
-    email: "b@beyonce.com",
+    designation: "Sales Representative",
+    email: "jane@zarttech.com",
     phone: "+123 456 789",
     directPhone: "+123 456 789",
     imgURL:
@@ -12,8 +12,8 @@ const contacts = [
   {
     id: 2,
     name: "John Doe",
-    designation: "Designation",
-    email: "jack@nowhere.com",
+    designation: "Account Manager",
+    email: "john@zarttech.com",
     phone: "+987 654 321",
     directPhone: "+123 456 789",
     imgURL:

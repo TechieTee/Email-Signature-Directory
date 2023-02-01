@@ -6,16 +6,16 @@ body {
     min-width: 750px;
     background-color: #dfe6e9;
     text-align: center;
-  }
-  
-  .heading {
+}
+
+.heading {
     text-align: center;
     font-size: 2em;
-    color: #2d3436;
+    color: #131230;
     margin: 20px 0 30px;
-  }
-  
-  .card {
+}
+
+.card {
     border-radius: 25px;
     position: relative;
     padding: 25px 15px;
@@ -24,103 +24,120 @@ body {
     height: 280px;
     box-shadow: 0 2px 5px #ccc;
     text-align: left;
-  }
-  
-  .top {
+}
+
+.top {
     border-radius: 25px 25px 0 0;
     height: 250px;
     width: 100%;
-    background-color: #fff;
+   
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
-  }
-  .logo {
-   
-    width: 150px;
-    margin-top: 20px;
-    
 }
 
-  
-  .img1 {
-    
-   
+
+.img1 {
+
+
     display: block;
     margin: 25px 20px 0 20px;
-    width: 25%;
-  }
-  .name1 {
-    
-    color: #2d3436;
-    display: block;
-    margin: 7px 20px 0 0;
-  }
+    width: 23%;
+}
 
-  .name {
-    font-size: 2em;
-    color: #083aaf;
-   
-    
-   
-  }
-
-  .location {
-    font-size: 1em;
-    color: #2d3436;
-    line-height: 0;
-    
-   
-  }
-  .tel {
-    font-size: 1em;
-    color: #2d3436;
-    line-height: 0.5;
-    margin-bottom: 30px;
-    
-   
-  }
-  .designation {
-    font-size: 23px;
-    color: #2d3436;
-    margin-top: -20px; 
-  }
-  .companyName {
-    font-size: 22px;
-    color: #2d3436;
-    margin: -8px 0;
- 
-  }
-  .userDetail {
-    font-size: 20px;
-    color: #2d3436;
- line-height: 0.6;
- 
-  }
-  .circle-img {
+.circle-img {
     border-radius: 50%;
     border: 7px solid #fff;
     width: 150px;
     height: 150px;
-  }
+    background-color: #000;
+}
+
+.logo {
+
+    width: 150px;
+    margin-top: 20px;
+
+}
+
+.name1 {
+
+    
+    display: block;
+    margin: 7px 20px 0 0;
+}
+
+.name {
+    font-size: 1.9em;
+    color: #4265AC;
+
+
+
+}
+
+.designation {
+    font-size: 20px;
+    color: #131230;
+    margin-top: -22px;
+}
+
+.companyName {
+    font-size: 20px;
+    color: #131230;
+
+
+}
+
+
+.userDetail {
+    font-size: 20px;
+    color: #131230;
+    line-height: 0.4;
+    margin-top: -4px;
+
+}
+
+
+
+
+.info {
   
-  .bottom {
-    border-top: 1px solid black;
-    margin-top: 240px;
-  }
-  
-  .info {
-    color: #2d3436;
     display: block;
     margin: 30px 20px 0 2px;
-  
-  }
-  .certifications{    margin: -10px 0px 0 0;
+
+}
+
+.location {
+    font-size: 1em;
+    color: #4e1963;
+    line-height: 0;
+
+
+}
+
+.tel {
+    font-size: 1em;
+    color: #131230;
+    line-height: 0.5;
+    margin-bottom: 30px;
+
+
+}
+
+.certifications {
+    margin: -10px 0px 0 0;
     height: 40px;
-    width: 125px;}
-  .footer {
+    width: 170px;
+}
+
+.bottom {
+    border-top: 1px solid #4265AC;
+    margin-top: 240px;
+}
+
+.footer {
     margin: 10px 0;
-    color: #2d3436;
+    color: #131230;
     font-size: 11px;
-  }
+}

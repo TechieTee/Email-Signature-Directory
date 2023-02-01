@@ -1,6 +1,7 @@
 import React from "react";
 import certifications from "../../src/assets/certifications.png"
 import logo from "../../src/assets/logo.png"
+import { FaEnvelope, FaPhone} from "react-icons/fa";
 function Card(props) {
   return (
     <div className="card">
@@ -15,9 +16,9 @@ function Card(props) {
           <h2 className="name">{props.name}</h2>
           <p className="designation">{props.designation}</p>
           <p className="companyName">Zarttech B.V The Netherlands (HQ)</p>
-          <p className="userDetail">{props.email}</p>
-          <p className="userDetail">{props.phone}</p>
-          <p className="userDetail">{props.directPhone}</p>
+          <p className="userDetail"><span style={{color:'#018B45', fontWeight:"500"}}><FaEnvelope /></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{props.email}</p>
+          <p className="userDetail"><span style={{color:'#018B45', fontWeight:"500"}}><FaPhone /></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{props.phone}</p>
+          <p className="userDetail"><span style={{color:'#018B45', fontWeight:"500"}}>Direct Line:</span> {props.directPhone}</p>
         </div>
         <div className="info">
           <h2 className="location">The Netherlands</h2>
