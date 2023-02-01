@@ -16,8 +16,8 @@ function Card(props) {
           <h2 className="name">{props.name}</h2>
           <p className="designation">{props.designation}</p>
           <p className="companyName">Zarttech B.V The Netherlands (HQ)</p>
-          <p className="userDetail"><span style={{color:'#018B45', fontWeight:"500"}}><FaEnvelope /></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{props.email}</p>
-          <p className="userDetail"><span style={{color:'#018B45', fontWeight:"500"}}><FaPhone /></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{props.phone}</p>
+          <p className="userDetail"><span style={{color:'#018B45', fontWeight:"500", verticalAlign:"middle"}}><FaEnvelope /></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{props.email}</p>
+          <p className="userDetail"><span style={{color:'#018B45', fontWeight:"500", verticalAlign:"middle"}}><FaPhone /></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{props.phone}</p>
           <p className="userDetail"><span style={{color:'#018B45', fontWeight:"500"}}>Direct Line:</span> {props.directPhone}</p>
         </div>
         <div className="info">
@@ -35,7 +35,7 @@ function Card(props) {
         <p className="footer">
           DISCLAIMER: This communication contains confidential information. If
           you are not the intended recipient, you may not use, copy and/or
-          disclose any of this information. Please contact us immidiately and
+          disclose any of this information. Please contact us immediately and
           delete this communication from your systems.
         </p>
       </div>
