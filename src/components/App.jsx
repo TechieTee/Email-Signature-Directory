@@ -10,8 +10,10 @@ function App() {
         <Card
           key={con.id}
           name={con.name}
+          designation={con.designation}
           img={con.imgURL}
-          tel={con.phone}
+          phone={con.phone}
+          directPhone={con.directPhone}
           email={con.email}
         />
       ))}
